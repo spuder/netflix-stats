@@ -1,4 +1,4 @@
-#!/bin/env ruby
+#!/usr/bin/env ruby
 require 'CSV'
 
 csv = CSV.parse(File.read('NetflixViewingHistory.csv'), headers: true)
